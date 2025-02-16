@@ -16,6 +16,30 @@ This project aims to detect **fake news** using **DistilBERT**, a transformer-ba
 
 ```
 
+# 📌 Using CUDA in Your Projects  
+
+## **1️⃣ Install CUDA Dependencies**  
+For Python projects, install `cupy` for GPU computations:  
+```bash
+pip install cupy-cuda12x
+```
+
+For PyTorch:  
+```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+```
+
+## **2️⃣ Check GPU Availability in Python**  
+```python
+import torch
+print(torch.cuda.is_available())
+print(torch.cuda.device_count())
+print(torch.cuda.get_device_name(0))
+```
+
+
+
+
 
 ## ⚙️ Installation Guide
 💡 Note: It is highly recommended to use a CUDA-enabled GPU (such as NVIDIA GPUs) for faster training. If a GPU is not available, training can be done on a CPU, but it will be significantly slower
