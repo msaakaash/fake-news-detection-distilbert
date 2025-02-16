@@ -74,7 +74,7 @@ This project is licensed under the MIT License.
 
 
 ## 📧 Contact
-For any questions, reach out via **msaakaash@gmail.com** or **GitHub Issues**.
+For any questions, reach out via [msaakaash@hotmail.com](mailto:msaakaash@hotmail.com) or **GitHub Issues**.
 
 Happy Coding! 🚀
 
